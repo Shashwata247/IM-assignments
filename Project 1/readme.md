@@ -15,4 +15,5 @@ Train and test datasets each came in two parts, one for identity and one for tra
 I have used XGBoost model as I found it to be robust while dealing with large number of observations and when most if not all of our data consists of numeric features. XGBoost uses gradient boosting which generates a prediction based on several ‘weak learners’ such as decision trees.Hyperparameter tuning was done based on references from other code notebooks and different articles on the internet. A learning rate of 0.05, gamma of 0.0468, max depth of 50 were used along with a host of other parameters which resulted was in model evaluation of 0.923940 after predictions using our test dataset.
 
 ➢ CONCLUSION
+
 The accuracy of our model can even more be improved by a polished feature selection process such as ‘Recursive Feature Selection’ along with feature engineering. Other classifications models may also be used to compare our accuracy on this dataset.
